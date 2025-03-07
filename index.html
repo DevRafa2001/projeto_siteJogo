@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Galeria de screenshots e fan arts</a></li> 
+            <li><a href="#">Histórias e Roleplay</a></li> 
+            <li><a href="#">Eventos de Caçada e missões</a></li> 
+            <li><a href="#">Teorias sobre a história e segredos do jogo</a></li>
+            <li>
+                <a href="#">Sobre o jogo</a> 
+                <ul>
+                    <li><a href="#">Sobre o jogo</a></li> 
+                </ul>
+            </li>
+            <li><a href="#">comentarios</a></li> 
+        </ul>
+    </nav>
+    <div class="login-container">
+        <h2>Entrar</h2>
+        <form action="processar_login.php" method="POST">
+            <label for="username">Nome de usuário:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+</body>
+</html>
